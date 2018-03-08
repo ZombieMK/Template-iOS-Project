@@ -10,10 +10,13 @@
 #define Template_iOS_Project_Prefix_pch
 
 // Macros
+#import "Macros.h"
 
 // Managers
+#import "Utilities.h"
 
 // Subclassing
+#import "NavigationController.h"
 
 // Constants
 
