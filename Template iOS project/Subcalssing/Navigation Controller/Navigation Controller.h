@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Navigation Controller.h
 //  Template iOS project
 //
 //  Created by Jovan Samardziski on 3/8/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Navigation_Controller : UINavigationController
 
 @end
-

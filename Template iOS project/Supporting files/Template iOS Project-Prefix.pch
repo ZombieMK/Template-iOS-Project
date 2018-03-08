@@ -1,0 +1,28 @@
+//
+//  Template iOS Project-Prefix.pch
+//  Template iOS project
+//
+//  Created by Jovan Samardziski on 3/8/18.
+//  Copyright © 2018 Jovan Samardziski. All rights reserved.
+//
+
+#ifndef Template_iOS_Project_Prefix_pch
+#define Template_iOS_Project_Prefix_pch
+
+// Macros
+
+// Managers
+
+// Subclassing
+
+// Constants
+
+// Categories
+
+// Third party
+
+// Models
+
+// Networking
+
+#endif /* Template_iOS_Project_Prefix_pch */
