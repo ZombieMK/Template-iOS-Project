@@ -1,13 +1,13 @@
 //
-//  Template iOS Project-Prefix.pch
-//  Template iOS project
+//  PrefixHeader.pch
+//  Template-iOS-project
 //
-//  Created by Jovan Samardziski on 3/8/18.
+//  Created by Jovan Samardziski on 3/9/18.
 //  Copyright © 2018 Jovan Samardziski. All rights reserved.
 //
 
-#ifndef Template_iOS_Project_Prefix_pch
-#define Template_iOS_Project_Prefix_pch
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
 
 // Macros
 #import "Macros.h"
@@ -28,4 +28,4 @@
 
 // Networking
 
-#endif /* Template_iOS_Project_Prefix_pch */
+#endif /* PrefixHeader_pch */

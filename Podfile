@@ -1,7 +1,7 @@
 
 platform :ios, '11.0'
 
-target 'Template iOS project' do
+target 'Template-iOS-project' do
     use_frameworks!
     inhibit_all_warnings!
 

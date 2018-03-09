@@ -17,20 +17,20 @@
 
 /* Begin PBXFileReference section */
 		3D2A718E46FC59194F67144A /* Pods_Template_iOS_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Template_iOS_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2297B72051D94E0035F342 /* Template iOS project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template iOS project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2297B72051D94E0035F342 /* Template-iOS-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template-iOS-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2297BA2051D94E0035F342 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C2297BB2051D94E0035F342 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C2297C32051D94E0035F342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C2297C82051D94E0035F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C2297C92051D94E0035F342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C2297DA2051DB9A0035F342 /* Template iOS Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Template iOS Project-Prefix.pch"; sourceTree = "<group>"; };
 		4C2297DF2051E7990035F342 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		4C2297E02051E7C70035F342 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		4C2297E12051E7C70035F342 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		4C2297E32051EA8F0035F342 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		4C2297E42051EA8F0035F342 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		6208F4BDFCACF5CB60970509 /* Pods-Template iOS project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template iOS project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template iOS project/Pods-Template iOS project.release.xcconfig"; sourceTree = "<group>"; };
-		E5B69ED49DE003C91131313D /* Pods-Template iOS project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template iOS project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template iOS project/Pods-Template iOS project.debug.xcconfig"; sourceTree = "<group>"; };
+		4C51ED5C2051F9770078212A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.release.xcconfig"; sourceTree = "<group>"; };
+		E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		4C2297AE2051D94E0035F342 = {
 			isa = PBXGroup;
 			children = (
-				4C2297B92051D94E0035F342 /* Template iOS project */,
+				4C2297B92051D94E0035F342 /* Template-iOS-project */,
 				4C2297B82051D94E0035F342 /* Products */,
 				72760306319035343D4A5B9A /* Pods */,
 				56D339F085B8F6A03EEA90BE /* Frameworks */,
@@ -58,12 +58,12 @@
 		4C2297B82051D94E0035F342 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C2297B72051D94E0035F342 /* Template iOS project.app */,
+				4C2297B72051D94E0035F342 /* Template-iOS-project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C2297B92051D94E0035F342 /* Template iOS project */ = {
+		4C2297B92051D94E0035F342 /* Template-iOS-project */ = {
 			isa = PBXGroup;
 			children = (
 				4C2297BA2051D94E0035F342 /* AppDelegate.h */,
@@ -78,7 +78,7 @@
 				4C2297D72051DA110035F342 /* Resources */,
 				4C2297D82051DA180035F342 /* Supporting files */,
 			);
-			path = "Template iOS project";
+			path = "Template-iOS-project";
 			sourceTree = "<group>";
 		};
 		4C2297D02051D9890035F342 /* Subcalssing */ = {
@@ -148,7 +148,7 @@
 			children = (
 				4C2297C92051D94E0035F342 /* main.m */,
 				4C2297C82051D94E0035F342 /* Info.plist */,
-				4C2297DA2051DB9A0035F342 /* Template iOS Project-Prefix.pch */,
+				4C51ED5C2051F9770078212A /* PrefixHeader.pch */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 		72760306319035343D4A5B9A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E5B69ED49DE003C91131313D /* Pods-Template iOS project.debug.xcconfig */,
-				6208F4BDFCACF5CB60970509 /* Pods-Template iOS project.release.xcconfig */,
+				E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */,
+				B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C2297B62051D94E0035F342 /* Template iOS project */ = {
+		4C2297B62051D94E0035F342 /* Template-iOS-project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C2297CD2051D94E0035F342 /* Build configuration list for PBXNativeTarget "Template iOS project" */;
+			buildConfigurationList = 4C2297CD2051D94E0035F342 /* Build configuration list for PBXNativeTarget "Template-iOS-project" */;
 			buildPhases = (
 				7EA9CDC0F310F84AD4F7DB30 /* [CP] Check Pods Manifest.lock */,
 				4C2297B32051D94E0035F342 /* Sources */,
@@ -204,9 +204,9 @@
 			);
 			dependencies = (
 			);
-			name = "Template iOS project";
+			name = "Template-iOS-project";
 			productName = "Template iOS project";
-			productReference = 4C2297B72051D94E0035F342 /* Template iOS project.app */;
+			productReference = 4C2297B72051D94E0035F342 /* Template-iOS-project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C2297B22051D94E0035F342 /* Build configuration list for PBXProject "Template iOS project" */;
+			buildConfigurationList = 4C2297B22051D94E0035F342 /* Build configuration list for PBXProject "Template-iOS-project" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,7 +237,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C2297B62051D94E0035F342 /* Template iOS project */,
+				4C2297B62051D94E0035F342 /* Template-iOS-project */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Template iOS project/Pods-Template iOS project-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/KVNProgress/KVNProgress.framework",
@@ -275,7 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Template iOS project/Pods-Template iOS project-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EA9CDC0F310F84AD4F7DB30 /* [CP] Check Pods Manifest.lock */ = {
@@ -289,7 +289,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Template iOS project-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Template-iOS-project-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -313,7 +313,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Template iOS project/Pods-Template iOS project-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -439,14 +439,14 @@
 		};
 		4C2297CE2051D94E0035F342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B69ED49DE003C91131313D /* Pods-Template iOS project.debug.xcconfig */;
+			baseConfigurationReference = E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43695FRA3E;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Template iOS project/Supporting Files/Template iOS project-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/Template iOS project/Supporting files/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Template-iOS-project/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Template-iOS-project/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jovansamardziski.Template-iOS-project";
@@ -457,14 +457,14 @@
 		};
 		4C2297CF2051D94E0035F342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6208F4BDFCACF5CB60970509 /* Pods-Template iOS project.release.xcconfig */;
+			baseConfigurationReference = B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43695FRA3E;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Template iOS project/Supporting Files/Template iOS project-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/Template iOS project/Supporting files/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Template-iOS-project/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Template-iOS-project/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jovansamardziski.Template-iOS-project";
@@ -476,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C2297B22051D94E0035F342 /* Build configuration list for PBXProject "Template iOS project" */ = {
+		4C2297B22051D94E0035F342 /* Build configuration list for PBXProject "Template-iOS-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C2297CB2051D94E0035F342 /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C2297CD2051D94E0035F342 /* Build configuration list for PBXNativeTarget "Template iOS project" */ = {
+		4C2297CD2051D94E0035F342 /* Build configuration list for PBXNativeTarget "Template-iOS-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C2297CE2051D94E0035F342 /* Debug */,
