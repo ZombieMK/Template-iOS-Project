@@ -21,6 +21,8 @@
 		4C22E13E205357D400896A71 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E13A205357D300896A71 /* OpenSans-Regular.ttf */; };
 		4C22E13F205357D400896A71 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */; };
 		4C22E1422053588300896A71 /* ModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E1412053588300896A71 /* ModelTemplate.m */; };
+		4C22E14520535A6300896A71 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E14420535A6300896A71 /* NetworkClient.m */; };
+		4C22E14820535A8900896A71 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E14720535A8900896A71 /* NetworkService.m */; };
 		F0272B5AE796758A7F8A4266 /* Pods_Template_iOS_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2A718E46FC59194F67144A /* Pods_Template_iOS_project.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,10 @@
 		4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		4C22E1402053588300896A71 /* ModelTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelTemplate.h; sourceTree = "<group>"; };
 		4C22E1412053588300896A71 /* ModelTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelTemplate.m; sourceTree = "<group>"; };
+		4C22E14320535A6300896A71 /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		4C22E14420535A6300896A71 /* NetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		4C22E14620535A8900896A71 /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		4C22E14720535A8900896A71 /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
 		4C51ED5C2051F9770078212A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.release.xcconfig"; sourceTree = "<group>"; };
 		E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +164,10 @@
 		4C2297D52051D9BA0035F342 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				4C22E14320535A6300896A71 /* NetworkClient.h */,
+				4C22E14420535A6300896A71 /* NetworkClient.m */,
+				4C22E14620535A8900896A71 /* NetworkService.h */,
+				4C22E14720535A8900896A71 /* NetworkService.m */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -371,9 +381,11 @@
 				4C2297CA2051D94E0035F342 /* main.m in Sources */,
 				4C22E1422053588300896A71 /* ModelTemplate.m in Sources */,
 				4C2297E52051EA8F0035F342 /* NavigationController.m in Sources */,
+				4C22E14520535A6300896A71 /* NetworkClient.m in Sources */,
 				4C2297E22051E7C70035F342 /* Utilities.m in Sources */,
 				4C2297BC2051D94E0035F342 /* AppDelegate.m in Sources */,
 				4C22E13320534B0200896A71 /* Fonts.m in Sources */,
+				4C22E14820535A8900896A71 /* NetworkService.m in Sources */,
 				4C22E13020534AF000896A71 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

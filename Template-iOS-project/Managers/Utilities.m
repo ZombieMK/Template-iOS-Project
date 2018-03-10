@@ -197,20 +197,28 @@
     static dispatch_once_t onceToken;
     
     dispatch_once(&onceToken, ^{
-#if TARGET_IPHONE_SIMULATOR
-        NSString *model = NSProcessInfo.processInfo.environment[@"SIMULATOR_MODEL_IDENTIFIER"];
-#else
+        #if TARGET_IPHONE_SIMULATOR
+            NSString *model = NSProcessInfo.processInfo.environment[@"SIMULATOR_MODEL_IDENTIFIER"];
+        #else
+            struct utsname systemInfo;
+            uname(&systemInfo);
         
-        struct utsname systemInfo;
-        uname(&systemInfo);
+            NSString *model = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
+        #endif
         
-        NSString *model = [NSString stringWithCString:systemInfo.machine
-                                             encoding:NSUTF8StringEncoding];
-#endif
         isiPhoneX = [model isEqualToString:@"iPhone10,3"] || [model isEqualToString:@"iPhone10,6"];
     });
     
     return isiPhoneX;
+}
+
+// MARK: Null checks
++ (BOOL)stringCheck:(NSString *)theString {
+    if (theString != nil && (NSNull *)theString != [NSNull null] && [theString length] > 0) {
+        return YES;
+    } else {
+        return NO;
+    }
 }
 
 @end

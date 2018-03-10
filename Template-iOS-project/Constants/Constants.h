@@ -14,10 +14,17 @@
 
 // Template constant string
 extern NSString *const baseURL;
+extern NSString *const urlTemplateGet;
+extern NSString *const urlTemplatePost;
 
 // MARK: API Keys
+extern NSString *const apiKeyAuth;
+extern NSString *const apiKeyParameterOne;
+extern NSString *const apiKeyParameterTwo;
 
 // MARK: Dicitionary
+extern NSString *const dictKeyError;
+extern NSString *const dictKeyErrorMessage;
 
 // MARK: Misc
 

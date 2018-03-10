@@ -53,4 +53,7 @@ typedef void(^Failure)(NSDictionary *error);
 // MARK: Check if iPhone X
 + (BOOL)isIphoneX;
 
+// MARK: Null checks
++ (BOOL)stringCheck:(NSString *)theString;
+
 @end
