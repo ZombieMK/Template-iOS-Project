@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainScreenController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic) NavigationController *navigationController;
+@property (nonatomic) MainScreenController *mainScreenController;
 
 @end
 
