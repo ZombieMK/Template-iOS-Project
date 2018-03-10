@@ -20,6 +20,7 @@
 		4C22E13D205357D400896A71 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E139205357D300896A71 /* OpenSans-Light.ttf */; };
 		4C22E13E205357D400896A71 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E13A205357D300896A71 /* OpenSans-Regular.ttf */; };
 		4C22E13F205357D400896A71 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */; };
+		4C22E1422053588300896A71 /* ModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E1412053588300896A71 /* ModelTemplate.m */; };
 		F0272B5AE796758A7F8A4266 /* Pods_Template_iOS_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2A718E46FC59194F67144A /* Pods_Template_iOS_project.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		4C22E139205357D300896A71 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		4C22E13A205357D300896A71 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4C22E1402053588300896A71 /* ModelTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelTemplate.h; sourceTree = "<group>"; };
+		4C22E1412053588300896A71 /* ModelTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelTemplate.m; sourceTree = "<group>"; };
 		4C51ED5C2051F9770078212A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.release.xcconfig"; sourceTree = "<group>"; };
 		E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 		4C2297D42051D9AF0035F342 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4C22E1402053588300896A71 /* ModelTemplate.h */,
+				4C22E1412053588300896A71 /* ModelTemplate.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				4C22E12D20534AD700896A71 /* Colors.m in Sources */,
 				4C22E13620534B0F00896A71 /* Images.m in Sources */,
 				4C2297CA2051D94E0035F342 /* main.m in Sources */,
+				4C22E1422053588300896A71 /* ModelTemplate.m in Sources */,
 				4C2297E52051EA8F0035F342 /* NavigationController.m in Sources */,
 				4C2297E22051E7C70035F342 /* Utilities.m in Sources */,
 				4C2297BC2051D94E0035F342 /* AppDelegate.m in Sources */,

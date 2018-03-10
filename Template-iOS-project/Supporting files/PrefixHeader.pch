@@ -30,6 +30,7 @@
 // Third party
 
 // Models
+#import "ModelTemplate.h"
 
 // Networking
 
