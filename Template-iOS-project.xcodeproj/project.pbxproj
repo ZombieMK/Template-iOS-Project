@@ -16,6 +16,10 @@
 		4C22E13020534AF000896A71 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E12F20534AF000896A71 /* Constants.m */; };
 		4C22E13320534B0200896A71 /* Fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E13220534B0200896A71 /* Fonts.m */; };
 		4C22E13620534B0F00896A71 /* Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E13520534B0F00896A71 /* Images.m */; };
+		4C22E13C205357D400896A71 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E138205357D300896A71 /* OpenSans-Semibold.ttf */; };
+		4C22E13D205357D400896A71 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E139205357D300896A71 /* OpenSans-Light.ttf */; };
+		4C22E13E205357D400896A71 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E13A205357D300896A71 /* OpenSans-Regular.ttf */; };
+		4C22E13F205357D400896A71 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */; };
 		F0272B5AE796758A7F8A4266 /* Pods_Template_iOS_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2A718E46FC59194F67144A /* Pods_Template_iOS_project.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,10 @@
 		4C22E13420534B0F00896A71 /* Images.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
 		4C22E13520534B0F00896A71 /* Images.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Images.m; sourceTree = "<group>"; };
 		4C22E13720534B3900896A71 /* Enum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		4C22E138205357D300896A71 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		4C22E139205357D300896A71 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4C22E13A205357D300896A71 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		4C51ED5C2051F9770078212A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.release.xcconfig"; sourceTree = "<group>"; };
 		E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +186,10 @@
 		4C2297D92051DA800035F342 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4C22E13B205357D400896A71 /* OpenSans-Bold.ttf */,
+				4C22E139205357D300896A71 /* OpenSans-Light.ttf */,
+				4C22E13A205357D300896A71 /* OpenSans-Regular.ttf */,
+				4C22E138205357D300896A71 /* OpenSans-Semibold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -269,6 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C22E13D205357D400896A71 /* OpenSans-Light.ttf in Resources */,
+				4C22E13C205357D400896A71 /* OpenSans-Semibold.ttf in Resources */,
+				4C22E13E205357D400896A71 /* OpenSans-Regular.ttf in Resources */,
+				4C22E13F205357D400896A71 /* OpenSans-Bold.ttf in Resources */,
 				4C2297C42051D94E0035F342 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
