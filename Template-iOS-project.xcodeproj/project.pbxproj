@@ -23,6 +23,8 @@
 		4C22E1422053588300896A71 /* ModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E1412053588300896A71 /* ModelTemplate.m */; };
 		4C22E14520535A6300896A71 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E14420535A6300896A71 /* NetworkClient.m */; };
 		4C22E14820535A8900896A71 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E14720535A8900896A71 /* NetworkService.m */; };
+		4C22E14C205361E500896A71 /* MainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E14B205361E500896A71 /* MainScreenController.m */; };
+		4C22E14F205361F700896A71 /* MainScreenControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22E14E205361F700896A71 /* MainScreenControllerView.m */; };
 		F0272B5AE796758A7F8A4266 /* Pods_Template_iOS_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2A718E46FC59194F67144A /* Pods_Template_iOS_project.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,10 @@
 		4C22E14420535A6300896A71 /* NetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
 		4C22E14620535A8900896A71 /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
 		4C22E14720535A8900896A71 /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		4C22E14A205361E500896A71 /* MainScreenController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreenController.h; sourceTree = "<group>"; };
+		4C22E14B205361E500896A71 /* MainScreenController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenController.m; sourceTree = "<group>"; };
+		4C22E14D205361F700896A71 /* MainScreenControllerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreenControllerView.h; sourceTree = "<group>"; };
+		4C22E14E205361F700896A71 /* MainScreenControllerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenControllerView.m; sourceTree = "<group>"; };
 		4C51ED5C2051F9770078212A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B1D496998D8A74A60FEF6640 /* Pods-Template-iOS-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.release.xcconfig"; sourceTree = "<group>"; };
 		E9FBDAE1C76510C3380DF41B /* Pods-Template-iOS-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-iOS-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template-iOS-project/Pods-Template-iOS-project.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 		4C2297D62051DA030035F342 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4C22E149205361C800896A71 /* Main Screen */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -216,6 +223,17 @@
 				4C2297E42051EA8F0035F342 /* NavigationController.m */,
 			);
 			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		4C22E149205361C800896A71 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				4C22E14A205361E500896A71 /* MainScreenController.h */,
+				4C22E14B205361E500896A71 /* MainScreenController.m */,
+				4C22E14D205361F700896A71 /* MainScreenControllerView.h */,
+				4C22E14E205361F700896A71 /* MainScreenControllerView.m */,
+			);
+			path = "Main Screen";
 			sourceTree = "<group>";
 		};
 		56D339F085B8F6A03EEA90BE /* Frameworks */ = {
@@ -380,12 +398,14 @@
 				4C22E13620534B0F00896A71 /* Images.m in Sources */,
 				4C2297CA2051D94E0035F342 /* main.m in Sources */,
 				4C22E1422053588300896A71 /* ModelTemplate.m in Sources */,
+				4C22E14F205361F700896A71 /* MainScreenControllerView.m in Sources */,
 				4C2297E52051EA8F0035F342 /* NavigationController.m in Sources */,
 				4C22E14520535A6300896A71 /* NetworkClient.m in Sources */,
 				4C2297E22051E7C70035F342 /* Utilities.m in Sources */,
 				4C2297BC2051D94E0035F342 /* AppDelegate.m in Sources */,
 				4C22E13320534B0200896A71 /* Fonts.m in Sources */,
 				4C22E14820535A8900896A71 /* NetworkService.m in Sources */,
+				4C22E14C205361E500896A71 /* MainScreenController.m in Sources */,
 				4C22E13020534AF000896A71 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
