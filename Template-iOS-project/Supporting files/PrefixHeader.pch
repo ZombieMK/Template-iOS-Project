@@ -33,5 +33,6 @@
 #import "ModelTemplate.h"
 
 // Networking
+#import "NetworkService.h"
 
 #endif /* PrefixHeader_pch */
