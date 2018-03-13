@@ -21,3 +21,6 @@ Download the project. Before running the xCode project, you need to install coco
 After the installation is complete, open the project directory in finder and you will see a new file with extension "xcworkspace" generated from cocoapods.
 
 Open that file and start working!
+
+## License
+Template-iOS-Project is released under the MIT license. See [LICENSE](https://github.com/ZombieMK/Template-iOS-Project/blob/master/LICENSE) for details.
